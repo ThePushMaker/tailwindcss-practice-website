@@ -1,0 +1,19 @@
+{
+  "name": "curso-express-de-tailwind-css-de-cero-a-experto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/tailwind.css -o ./public/css/main.css --watch",
+    "build:css": "postcss ./src/tailwind.css -o ./public/css/main.css",
+    "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.5",
+    "win-node-env": "^0.6.1"
+  }
+}

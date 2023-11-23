@@ -18,3 +18,6 @@
 .arrow-group {
   @apply  group-hover:border-red-500 xl:group-hover:ml-4
 }
+.coin {
+  @apply w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]
+}
